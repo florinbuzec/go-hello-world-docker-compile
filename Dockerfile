@@ -1,4 +1,6 @@
-FROM golang:1.9
+ARG GO_VERSION=1.9
+
+FROM golang:${GO_VERSION}
 
 WORKDIR /usr/src/myapp
 
