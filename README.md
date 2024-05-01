@@ -3,7 +3,7 @@
 
 - Usage:
     - Specify the `GO_VERSION` in the `Makefile`
-    - You can now also use Go versions that use go modules (e.g: 1.22)
+    - You can now also use Go versions that use go modules (e.g: '1.9', '1.16', '1.22' etc)
     - Compile:
     ```bash
     make
