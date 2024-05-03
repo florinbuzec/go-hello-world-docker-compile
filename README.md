@@ -2,7 +2,7 @@
 
 
 - Usage:
-    - Specify the `GO_VERSION` in the `Makefile`
+    - Specify the `GO_VERSION` in the `.env` file
     - You can now also use Go versions that use go modules (e.g: '1.9', '1.16', '1.22' etc)
     - Compile:
     ```bash
