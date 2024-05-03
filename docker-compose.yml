@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  go-build:
+    container_name: go-build-tmp
+    image: 'go-build:${GO_VERSION}'
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - GO_VERSION=${GO_VERSION}
+    volumes:
+      - ./build:/usr/src/myapp/build
+    entrypoint: ["make", "go-build"]
